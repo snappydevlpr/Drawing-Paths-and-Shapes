@@ -15,6 +15,9 @@
 		438E4B7227F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B7127F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITests.swift */; };
 		438E4B7427F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B7327F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift */; };
 		438E4B8327F8BD17001BBD8F /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */; };
+		438E4B8527F8BE5F001BBD8F /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B8427F8BE5F001BBD8F /* BadgeBackground.swift */; };
+		438E4B8727F8C2C8001BBD8F /* DiamondBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B8627F8C2C8001BBD8F /* DiamondBackground.swift */; };
+		438E4B8A27F8C2E7001BBD8F /* DiamondParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B8927F8C2E7001BBD8F /* DiamondParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		438E4B7327F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Paths_and_ShapesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		438E4B8027F8BC9B001BBD8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		438E4B8427F8BE5F001BBD8F /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		438E4B8627F8C2C8001BBD8F /* DiamondBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondBackground.swift; sourceTree = "<group>"; };
+		438E4B8927F8C2E7001BBD8F /* DiamondParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		438E4B5527F8BC82001BBD8F /* Drawing Paths and Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				438E4B8827F8C2D5001BBD8F /* Models */,
 				438E4B8127F8BD09001BBD8F /* Views */,
 				438E4B5627F8BC82001BBD8F /* Drawing_Paths_and_ShapesApp.swift */,
 				438E4B5827F8BC82001BBD8F /* ContentView.swift */,
@@ -135,9 +142,19 @@
 		438E4B8127F8BD09001BBD8F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */,
+				438E4B8427F8BE5F001BBD8F /* BadgeBackground.swift */,
+				438E4B8627F8C2C8001BBD8F /* DiamondBackground.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		438E4B8827F8C2D5001BBD8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */,
+				438E4B8927F8C2E7001BBD8F /* DiamondParameters.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				438E4B8327F8BD17001BBD8F /* HexagonParameters.swift in Sources */,
+				438E4B8727F8C2C8001BBD8F /* DiamondBackground.swift in Sources */,
+				438E4B8A27F8C2E7001BBD8F /* DiamondParameters.swift in Sources */,
 				438E4B5927F8BC82001BBD8F /* ContentView.swift in Sources */,
 				438E4B5727F8BC82001BBD8F /* Drawing_Paths_and_ShapesApp.swift in Sources */,
+				438E4B8527F8BE5F001BBD8F /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
