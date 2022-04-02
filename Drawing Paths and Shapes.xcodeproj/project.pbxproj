@@ -14,6 +14,7 @@
 		438E4B6827F8BC84001BBD8F /* Drawing_Paths_and_ShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B6727F8BC84001BBD8F /* Drawing_Paths_and_ShapesTests.swift */; };
 		438E4B7227F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B7127F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITests.swift */; };
 		438E4B7427F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B7327F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift */; };
+		438E4B8327F8BD17001BBD8F /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		438E4B6D27F8BC84001BBD8F /* Drawing Paths and ShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing Paths and ShapesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		438E4B7127F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Paths_and_ShapesUITests.swift; sourceTree = "<group>"; };
 		438E4B7327F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Paths_and_ShapesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		438E4B8027F8BC9B001BBD8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		438E4B4A27F8BC82001BBD8F = {
 			isa = PBXGroup;
 			children = (
+				438E4B8027F8BC9B001BBD8F /* README.md */,
 				438E4B5527F8BC82001BBD8F /* Drawing Paths and Shapes */,
 				438E4B6627F8BC84001BBD8F /* Drawing Paths and ShapesTests */,
 				438E4B7027F8BC84001BBD8F /* Drawing Paths and ShapesUITests */,
@@ -94,6 +98,7 @@
 		438E4B5527F8BC82001BBD8F /* Drawing Paths and Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				438E4B8127F8BD09001BBD8F /* Views */,
 				438E4B5627F8BC82001BBD8F /* Drawing_Paths_and_ShapesApp.swift */,
 				438E4B5827F8BC82001BBD8F /* ContentView.swift */,
 				438E4B5A27F8BC83001BBD8F /* Assets.xcassets */,
@@ -125,6 +130,14 @@
 				438E4B7327F8BC84001BBD8F /* Drawing_Paths_and_ShapesUITestsLaunchTests.swift */,
 			);
 			path = "Drawing Paths and ShapesUITests";
+			sourceTree = "<group>";
+		};
+		438E4B8127F8BD09001BBD8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				438E4B8227F8BD17001BBD8F /* HexagonParameters.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438E4B8327F8BD17001BBD8F /* HexagonParameters.swift in Sources */,
 				438E4B5927F8BC82001BBD8F /* ContentView.swift in Sources */,
 				438E4B5727F8BC82001BBD8F /* Drawing_Paths_and_ShapesApp.swift in Sources */,
 			);
